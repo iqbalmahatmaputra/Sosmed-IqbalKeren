@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <header class="block md:hidden">
+            <!-- content header -->
+            <div class="container">
+                <nav class="flex items-center justify-between p-4">
+                    <!-- isi Nav -->
+                    <div class="header-left">
+                        <img src="public/img/logo_instax.png" alt="InstaX" class="w-16">
+                    </div>
+                    <div class="header-right">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-comment-dots ml-2"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="grid grid-cols-4">
+        <!-- Left Bar -->
+        <div class="hidden md:block text-gray-800 bg-white w-64 py-8 px-4 border-r-2 h-screen border-gray-200">
+            <img src="public/img/logo_instax.png" alt="InstaX" class="w-44">
+            <ul class="space-y-5">
+                <li class="mb-2">
+                    <a href="#" class="flex items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-home mr-2"></i>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-search mr-2"></i>
+                        <p>Search</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-compass mr-2"></i>
+                        <p>Explore</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-film mr-2"></i>
+                        <p>Reels</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-comment-dots mr-2"></i>
+                        <p>Messages</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-heart mr-2"></i>
+                        <p>Notification</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-square-plus mr-2"></i>
+                        <p>Account</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-user mr-2"></i>
+                        <p>Profile</p>
+                    </a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="flex items-center text-gray-800 hover:font-bold">
+                        <i class="fas fa-bars mr-2"></i>
+                        <p>More</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Left Bar -->
+        <!-- Post Bar -->
+        <div class="col-span-4 md:col-span-2">
+            <div class="container">
+                <div class="flex flex-col justify-center items-center flex-nowrap">
+                    <div class="stories flex flex-row mt-5 space-x-5">
+                        <img src="https://source.unsplash.com/100x100?random=1"
+                            class="rounded-full object-cover w-16 h-16 ring-4 ring-red-500 ring-offset-4 hover:ring-red-700">
+                        <img src="https://source.unsplash.com/100x100?random=2"
+                            class="rounded-full object-cover w-16 h-16 ring-4 ring-red-500 ring-offset-4 hover:ring-red-700">
+                        <img src="https://source.unsplash.com/100x100?random=3"
+                            class="rounded-full object-cover w-16 h-16 ring-4 ring-red-500 ring-offset-4 hover:ring-red-700">
+                        <img src="https://source.unsplash.com/100x100?random=4"
+                            class="rounded-full object-cover w-16 h-16 ring-4 ring-red-500 ring-offset-4 hover:ring-red-700">
+                        <img src="https://source.unsplash.com/100x100?random=5"
+                            class="rounded-full object-cover w-16 h-16 ring-4 ring-red-500 ring-offset-4 hover:ring-red-700 hidden md:block">
+                        <img src="https://source.unsplash.com/100x100?random=6"
+                            class="rounded-full object-cover w-16 h-16 ring-4 ring-red-500 ring-offset-4 hover:ring-red-700 hidden md:block">
+                    </div>
+                </div>
+                <div class="feed flex flex-col mt-10 p-2">
+                    <div class="feed-item">
+                        <div class="flex flex-row items-center mb-4">
+                            <!-- isi Navbar Feed -->
+                            <img src="https://source.unsplash.com/100x100/?code,coding&random=7"
+                                class="rounded-full object-cover w-12 h-12 mr-2">
+                            <div class="flex flex-col">
+                                <span>Pemuda_setempat</span>
+                                <span class="font-thin text-gray-400">Pekanbaru</span>
+                            </div>
+                            <a href="#" target="_blank" class="text-gray-500 ml-auto" rel="noopener noreferrer">
+                                <i class="fas fa-ellipsis-vertical"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Post Bar -->
+        <!-- Right Bar -->
+        <div class="hidden md:block">
+
+        </div>
+        <!-- End Right Bar -->
+    </div>
+</body>
+
+</html>
